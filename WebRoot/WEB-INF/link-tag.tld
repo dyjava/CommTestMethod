@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--
+page taglib
+Created by dyong 2009-04-22
+-->
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+<tlibversion>1.0</tlibversion>
+<jspversion>1.1</jspversion>
+<shortname>page</shortname>
+<uri>http://yicha.cn/pageTag/wap</uri>
+
+<tag>
+<name>pageTag</name>
+<tagclass>com.method.tag.page.PageTag</tagclass>
+<bodycontent>JSP</bodycontent>
+
+<!-- 必选参数 -->
+<!-- 翻页信息对象 -->
+<attribute>
+<name>root</name>
+<required>true</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<!--  -->
+<attribute>
+<name>scope</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<!-- 翻页类型 0先文字翻页后数字翻页,1先数字翻页后文字翻页,2只有数字翻页,3只有文字翻页。默认为0 -->
+<attribute>
+<name>type</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+<!-- 提交类型 link为超链接形式，get为form表单get提交，post为form表单post提交 -->
+<attribute>
+<name>method</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+</tag>
+
+</taglib>

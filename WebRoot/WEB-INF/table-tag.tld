@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--
+page taglib
+Created by dyong 2009-04-24
+-->
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+<tlibversion>1.0</tlibversion>
+<jspversion>1.1</jspversion>
+<shortname>option</shortname>
+<uri>http://yicha.cn/tableTag/wap</uri>
+
+<tag>
+<name>table</name>
+<tagclass>com.method.tag.table.TableTag</tagclass>
+<bodycontent>JSP</bodycontent>
+
+<!-- 必选参数 -->
+<!-- 信息对象 List 等等 -->
+<attribute>
+<name>name</name>
+<required>true</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<!-- 可选参数 -->
+<!-- 边框大小 -->
+<attribute>
+<name>border</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>cellspacing</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>cellpadding</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>align</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>valign</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>bgcolor_title</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<attribute>
+<name>bgcolor_data</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+</tag>
+
+<!-- 显示参数控制 -->
+<tag>
+<name>property</name>
+<tagclass>com.method.tag.table.TableParam</tagclass>
+<bodycontent>JSP</bodycontent>
+
+<!-- 参数名 -->
+<attribute>
+<name>name</name>
+<required>true</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<!-- 显示标题 -->
+<attribute>
+<name>title</name>
+<required>true</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+</tag>
+
+</taglib>

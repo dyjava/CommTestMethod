@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<start>
+  <record>
+    <ID>11</ID>
+    <starName>4 in love</starName>
+    <introduction>姓名:4 in Lovex-x-x主要成员x-x-x冷嘉玲x-x-x中文名:冷嘉玲x-x-x英文名:Cloudiex-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>2</ID>
+    <starName>白智英</starName>
+    <introduction>姓名:白智英x-x-x 性别:女x-x-x 英文名:BaekJiYoungx-x-x 出生年:1978年x-x-x生日:3月25日x-x-x 星座:白羊座x-x-x国籍:韩国x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>3</ID>
+    <starName>宝儿</starName>
+    <introduction>本名:BoA英文名:BoAx-x-x生日:1986-11-5出生地:京畿道x-x-x身高:160cm体重:42kgx-x-x血型:AB型星座:天蝎座x-x-x艺名:BoA(BeatofAngel)x-x-x韩语名:(GuenBoA)x-x-x绰号:Cat(猫),小黑孩x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>4</ID>
+    <starName>贝克汉姆</starName>
+    <introduction>David Beckhamx-x-x中文姓名:大卫·贝克汉姆x-x-x出生时间:1975年5月2日x-x-x出生地点:伦敦雷顿斯通x-x-x星座:金牛座x-x-x身高:180厘米x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>5</ID>
+    <starName>滨崎步</starName>
+    <introduction>英文:AyumiHamasakix-x-x昵称:Ayux-x-x生日:1978年10月2日x-x-x血型:A型x-x-x出生地:福冈县x-x-x最近喜欢听Babyface,EnVogue之类的黑人音乐.x-x-x喜欢的演员:NicolasCage,宫泽理惠(RieMiyazawa)x-x-x</introduction>
+    <hasAlbum>yes</hasAlbum>
+  </record>
+  <record>
+    <ID>6</ID>
+    <starName>布兰妮</starName>
+    <introduction>花名:小甜甜x-x-x姓名:Britney JeanSpearsx-x-x生日:1981年12月2日x-x-x出生地:美国密西西比x-x-x父母:LynneSpears／Jamiex-x-x昵称:Bit-Bit,Britx-x-x发色:浅褐色x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>7</ID>
+    <starName>才旦卓玛</starName>
+    <introduction>姓名:才旦卓玛x-x-x 性别:女x-x-x 国籍:中国x-x-x 地域:中国大陆x-x-x 职业:歌手x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>8</ID>
+    <starName>蔡国庆</starName>
+    <introduction>姓名:蔡国庆x-x-x生日:9月17日x-x-x星座:处女座x-x-x身高:1.78米x-x-x体重:63公斤x-x-x血型:Bx-x-x籍贯:北京x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>9</ID>
+    <starName>蔡健雅</starName>
+    <introduction>英文名:Tsai,Tanyax-x-x生日:1975-01-28出生地:新加坡x-x-x身高:160cmx-x-x血型:B星座:水瓶座x-x-x生肖:虎(以中国旧历年计算)x-x-x出生地:新加坡x-x-x排行:老么(有一个姊姊)x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>10</ID>
+    <starName>蔡琴</starName>
+    <introduction>本籍:湖北沔阳县x-x-x英文名:Tsai,Chinx-x-x生日:12-22x-x-x身高:160cm血型:B星座:射手座x-x-x嗜好:看电影,看书,听音乐x-x-x最害怕的东西:老鼠x-x-x最爱吃的东西:水梨,鸡肉,瓜子x-x-x</introduction>
+    <hasAlbum>yes</hasAlbum>
+  </record>
+  <record>
+    <ID>11</ID>
+    <starName>蔡依林</starName>
+    <introduction>本名:蔡宜凌x-x-x英文名:Jolinx-x-x生肖:猴x-x-x生日:1980年9月15日x-x-x星座:处女座x-x-x生肖:猴x-x-x身高:158公分x-x-x</introduction>
+    <hasAlbum>yes</hasAlbum>
+  </record>
+  <record>
+    <ID>12</ID>
+    <starName>蔡卓妍</starName>
+    <introduction>本名:蔡卓妍x-x-x英文名:Choi,Charlenex-x-x生日:1982-11-22x-x-x出生地:Canadax-x-x身高:161cm重:100磅x-x-x血型:O星座:天蝎座x-x-x言语:广东话,英文x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>13</ID>
+    <starName>仓木麻衣</starName>
+    <introduction>英文名称:maikurakix-x-x生日:1982年10月28日x-x-x星座:射手座x-x-x身高:162x-x-x血型:Bx-x-x学历:立命馆大学x-x-x最喜欢的乐器:钢琴x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>14</ID>
+    <starName>曹颖</starName>
+    <introduction>生日:5月14日x-x-x星座:金牛座x-x-x身高:1米68x-x-x体重:50公斤x-x-x血型:B型x-x-x通讯地址:北京市复兴路11号中央电视台&lt;&lt;综艺大观&gt;&gt;节目组(100859)x-x-x籍贯:北京x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>15</ID>
+    <starName>草蜢</starName>
+    <introduction>中文姓名:蔡一智生日:1965.1.3x-x-x英文名字:CALVINx-x-x星座:山羊座血型:ABx-x-x身高:170CM体重:52KGx-x-x中文姓名:蔡一杰生日:1967.2.6x-x-x英文姓名:REMUSx-x-x</introduction>
+    <hasAlbum>yes</hasAlbum>
+  </record>
+  <record>
+    <ID>16</ID>
+    <starName>常盘贵子</starName>
+    <introduction>姓名:常盘贵子x-x-x 性别:女x-x-x 英文名:TakakoTokiwax-x-x 出生年:1972年x-x-x生日:4月30日x-x-x 星座:金牛座x-x-x国籍:日本x-x-x</introduction>
+    <hasAlbum>no</hasAlbum>
+  </record>
+  <record>
+    <ID>17</ID>
+    <starName>陈百强</starName>
+    <introduction>本籍:广东台山x-x-x英文名:Chan,Dannyx-x-x生日:1958-09-07出生地:香港x-x-x身高:5.9英尺体重:65KGx-x-x星座:处女座x-x-x家庭成员:父母,二兄,一弟,一姐x-x-x婚姻状况:独居x-x-x</introduction>
+    <hasAlbum>yes</hasAlbum>
+  </record>
+</start>

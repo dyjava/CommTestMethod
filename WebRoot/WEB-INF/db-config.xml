@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db-config>
+	<dbType>1</dbType>
+	<dbDriver>com.microsoft.jdbc.sqlserver.SQLServerDriver</dbDriver>
+	<dbServer>jdbc:microsoft:sqlserver://localhost:1433</dbServer>
+	<DatabaseName>mp3rank</DatabaseName>
+	<User>rel</User>
+	<Password>1234</Password>
+	<Min>10</Min>
+	<Max>20</Max>
+</db-config>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CommTestMethod"
+  id="myeclipse.1305013533531"
+  context-root="/CommTestMethod"
+  j2ee-spec="5.0"
+  archive="CommTestMethod.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--
+page taglib
+Created by dyong 2009-04-24
+-->
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+<tlibversion>1.0</tlibversion>
+<jspversion>1.1</jspversion>
+<shortname>option</shortname>
+<uri>http://yicha.cn/optionTag/wap</uri>
+
+<tag>
+<name>option</name>
+<tagclass>com.method.tag.option.OptionTag</tagclass>
+<bodycontent>JSP</bodycontent>
+
+<!-- 必选参数 -->
+<!-- 信息对象 Map List 等等 -->
+<attribute>
+<name>root</name>
+<required>true</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+<!-- 选择框name -->
+<attribute>
+<name>name</name>
+<required>true</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<!-- 可选参数 -->
+<!-- 默认选择项 -->
+<attribute>
+<name>selectedId</name>
+<required>false</required>
+<rtexprvalue>false</rtexprvalue>
+</attribute>
+
+<!--  -->
+<attribute>
+<name>scope</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<!-- 显示样式 -->
+<attribute>
+<name>css</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<!-- 调用onchange方法 -->
+<attribute>
+<name>onchange</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<!-- 是否显示未选择选项 默认false，赋值 true -->
+<attribute>
+<name>noSelectOpt</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+<!-- 自定义存储类型的key变量名 -->
+<attribute>
+<name>keyName</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+<!-- value变量名 -->
+<attribute>
+<name>valueName</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+
+
+</tag>
+
+</taglib>

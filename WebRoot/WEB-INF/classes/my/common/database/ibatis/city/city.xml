@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="citySpace">
+	
+	<typeAlias alias="c" type="my.common.database.ibatis.city.City" />
+	
+	<resultMap id="cityMap" class="c">
+		<result property="id" column="id"/>
+		<result property="cname" column="cname"/>
+		<result property="alias" column="alias"/>
+		<result property="s_spell" column="s_spell"/>
+		<result property="a_spell" column="a_spell"/>
+		<result property="parent_id" column="parent_id"/>
+		
+		<result property="instact_name" column="instact_name"/>
+		<result property="instact_spell" column="instact_spell"/>
+	</resultMap>
+	
+	<insert id="insertCity" parameterClass="c">
+		INSERT INTO china_city(id,cname,alias,simple_spell,all_spell,parentid,intact_name,intact_spell) VALUES
+			(#id#,#cname#,#alias#,#s_spell#,#a_spell#,#parent_id#,#instact_name#,#instact_spell#)
+	</insert>
+	
+	<select id="selectCity" resultClass="c">
+		select id,cname,alias,'' s_spell,'' a_spell ,parentid parent_id
+		from cn_city where parentid=0
+	</select>
+	
+	<select id="selectCityByID" resultClass="c" parameterClass="java.lang.String">
+		select id,cname,alias,'' s_spell,'' a_spell ,parentid parent_id
+		from cn_city where parentid=#id#
+	</select>
+	
+	<select id="selectAllChinaCity" resultClass="c">
+		select id,cname,alias,simple_spell s_spell,all_spell a_spell ,parentid parent_id,intact_name instact_name,intact_spell instact_spell
+		from china_city
+	</select>
+	
+</sqlMap>

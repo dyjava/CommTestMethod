@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<digester-rules>
+
+	<pattern value="start/record">
+
+		<object-create-rule classname="com.method.file.XML.digester.Bean"/>
+		
+		<set-next-rule methodname="add" paramtype="java.lang.Object" />
+		
+		<set-properties-rule />
+		
+		<bean-property-setter-rule pattern="ID"
+			propertyname="id" />
+		<bean-property-setter-rule pattern="starName"
+			propertyname="starName" />
+		<bean-property-setter-rule pattern="introduction"
+			propertyname="introduction" />
+		<bean-property-setter-rule pattern="hasAlbum"
+			propertyname="hasAlbum" />
+		<!-- 
+		<bean-property-setter-rule pattern="hasAlbum" />
+		 -->
+	</pattern>
+	
+</digester-rules>

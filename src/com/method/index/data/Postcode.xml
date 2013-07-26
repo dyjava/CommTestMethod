@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="postcode">
+
+	<typeAlias alias="post" type="com.method.index.data.Postcode" />
+	
+	<resultMap id="postMap" class="post">
+		<result property="id" column="id"/>
+		<result property="province" column="province"/>
+		<result property="city" column="city"/>
+		<result property="area" column="area"/>
+		<result property="address" column="address"/>
+		<result property="postcode" column="postcode"/>
+		<result property="dnumber" column="dnumber"/>
+		
+	</resultMap>
+	
+	<select id="selectAll" resultClass="post" >
+		select * from postcode limit 10000
+	</select>
+	
+</sqlMap>
